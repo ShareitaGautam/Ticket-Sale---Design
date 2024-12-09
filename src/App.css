@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa; /* Light gray background */
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.app-container {
+  text-align: center;
+  background: white; /* White background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+  max-width: 900px; /* Limit the width */
+  width: 90%;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Arrange elements in a grid layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  gap: 20px; /* Spacing between rows and columns */
+  justify-items: center;
+  align-items: center;
+}
+
+.ticket-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
